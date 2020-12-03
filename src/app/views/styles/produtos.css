@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    background-image: url(/static/midias/native/fundoFull.png);
+}
+.mid{
+    margin: 2% 2% 0 2%;
+}
+row, row-cols-1, row-cols-md-4{
+    width: 80vw;
+}
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: transparent;
+    border-top: 1px solid rgba(0,0,0,.125);
+}

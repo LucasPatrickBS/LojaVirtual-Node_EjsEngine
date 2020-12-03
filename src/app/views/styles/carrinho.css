@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-image: url(/static/midias/native/fundoFull.png);
+}
+h5{
+    text-align: center;
+}
+.mid,
+.btn-primary,
+.btn-primary:active,
+.btn-primary:disabled,
+.btn-primary:visited,
+.btn-primary:focus,
+.btn-primary:active:focus{
+   background-color: var(--color-primary-ligth);
+   border-color: var(--color-primary-ligth);
+   box-shadow: none;
+   font-size: 0.9rem;
+   padding: 0.5rem 0.8rem 0.5rem 0.5rem;
+}
+.mid,
+.btn-primary:hover{
+    background-color: var(--color-primary-ligther);
+    border-color: var(--color-primary-ligther);
+    font-size: 0.9rem;
+    padding: 0.5rem 0.8rem 0.5rem 0.5rem;
+}
+.mid,
+.btn-secondary,
+.btn-secondary:active,
+.btn-secondary:visited,
+.btn-secondary:focus,
+.btn-secondary:active:focus{
+   font-size: 0.9rem;
+   padding: 0.5rem 0.8rem 0.5rem 0.5rem;
+}
+.mid,
+.btn-secondary:hover{
+    font-size: 0.9rem;
+    padding: 0.5rem 0.8rem 0.5rem 0.5rem;
+}
+.mid-content{
+    display: flex;
+    flex-direction: row;
+    padding: 2% 2% 0 2%;
+
+}
+.mid-left, .mid-right{ 
+    margin-top: 2%;
+}
+.mid-left{
+    margin-left: 4%;
+    margin-right: 4%;
+    max-width: 70%;
+}
+.col-md-4 img{
+    max-height: 350px;
+}
+.carrinhoVazio{
+    text-align: center;
+    width: 600px;
+    padding: 5%;
+    margin-left: 80%;
+    font-size: 3rem;
+    background-color: rgb(250, 179, 179);
+    border-radius: 10px;
+}

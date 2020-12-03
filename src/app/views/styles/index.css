@@ -1,0 +1,59 @@
+:root{
+    --color-primary: #da1a83;
+    --color-primary-ligth: #ff46b2;
+    --color-primary-ligther: #fd1a9f;
+}
+body{
+    margin: 0;
+    background-image: url(/static/midias/native/fundoFull.png);
+}
+h2{
+    text-align: center;
+    font-weight: 500;
+}
+.mid{
+    margin: 5% 5% 0 5%;
+}
+#carouselExampleCaptions .carousel-inner, #carouselExampleCaptions .carousel-item{
+    height: 550;
+}
+#carouselExampleCaptions .carousel-caption{
+    bottom: 10%;
+}
+#carouselExampleCaptions .carousel-caption h5{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1.8rem;
+}
+#carouselExampleCaptions .carousel-caption p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 6rem;
+    color: white;
+}
+.card img{
+    padding: 4%;
+    max-height: 300px;
+}
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: transparent;
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+#carouselExampleCaptions .carousel-caption h5 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1.8rem;
+    font-weight: 400;
+    text-shadow: 2px 3px 3px rgb(0, 0, 0);
+}
+#carouselExampleCaptions .carousel-caption p{
+    font-weight: 400;
+    text-shadow: 2px 3px 3px rgb(0, 0, 0);
+}
+.botton{
+    background-color: var(--color-primary);
+    padding-top: 1.5rem;
+    height: 5rem;
+    text-align: center;
+}
